@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -77,22 +79,53 @@ nav  ul li > a {
 
  #info > h2{
     font-size: 2rem;
-    
+    margin-top: 16px;
+    margin-bottom: 10rem;
     text-align: center;
 }
 
 #info p{
-    font-weight: 200;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 8rem;
+    font-weight: 200;    
     text-align: justify;
     padding: 5px;
+    
 }
 
 
+
+.get{
+width: 180px;
+height: 52px;
+ border: 1px solid #941515;
+text-transform: uppercase;
+font-size: 1rem;
+background-color: #1a1b1f;
+overflow: hidden;
+color: #fff;
+cursor: pointer;
+position: relative;
+margin-top: 42px;
+left: 50%;
+transform: translate(-50%);
+}
+
+.get::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #961227;
+  transition: left 0.3s ease-in-out;
+  z-index: -1;
+}
+
+
+
+.get:hover::before {
+ left: 0;
+}
 
 #img-1{
     width: 520px;
