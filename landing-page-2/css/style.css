@@ -253,3 +253,53 @@ padding: 12px;
   z-index: -100;
  
 }
+
+#features-container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#custom-list{
+  list-style: none;
+  display: flex;
+  transition: 0.3s ease;
+ 
+}
+
+#custom-list:hover > :not(:hover){
+  opacity: .4;
+  transform: scale(0.9);
+}
+
+#custom-list li{
+  text-align: center;
+  margin-right: 20px;
+  
+}
+
+.number{
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.text{
+  display: block;
+  font-size: 1rem;
+}
+
+#plans-container{
+  margin-top: 3rem;
+}
+
+
+#plan-1,
+#plan-2,
+#plan-3{
+  background-color: #c7cecf;
+  width: 320px;
+  height: 90%;
+  margin: 2rem;
+}
+
