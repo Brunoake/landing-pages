@@ -6,6 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<box-icon name='check-circle'></box-icon>
+
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js" defer></script>
     <title>landing-page2</title>
@@ -35,6 +38,7 @@
        
         </section>
         <section id="heading-container">
+           
             <div id="download-container">
                 <img src="img/download.png" id="download">
                 <div class="loader-container">
@@ -68,85 +72,140 @@
                 </li>
             </ul>
         </div>
-        <div id="plans-container">
-            <div id="plan-1" class="principal">
-                <img src="img/sapo-dourado-panamenho.png" alt="">
-                <h3>Startup</h3>
-                <p>Starting at</p>
-                <p>$599/mo</p>
-                <p>Lorem ipsum dolor</p>
-                <button id="Talk">TALK TO AN EXPERT</button>
-                <ul>
-                 
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                </ul>
-            </div>
-            <div id="plan-2">
-                <img src="img/sapo-dourado-panamenho.png" alt="">
-                <h3>Growth</h3>
-                <p>Starting at</p>
-                <p>$1,499/mo</p>
-                <p>Lorem ipsum dolor</p>
-                <button id="Talk">TALK TO AN EXPERT</button>
-                <ul>
-                 
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Etiam sodales ac felis id interdum</a></li>
-                </ul>
-            </div>
-            <div id="plan-3">
-                <img src="img/sapo-dourado-panamenho.png" alt="">
-                <h3>Enterprise</h3>
-                <p>Starting at</p>
-                <p>$2,499/mo</p>
-                <p>Lorem ipsum dolor</p>
-                <button id="Talk">TALK TO AN EXPERT</button>
-                <ul>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#"><span>&#x2611;</span>Lorem ipsum dolor sit amet</a></li>
-                </ul>
+        <div class="pricing">
+            <div class="card" onclick="moveToFront(this)">
+                <div  class="content">
+                    <div class="emblem-container"><img src="img/sapo-dourado-panamenho.png" id="emblem" alt=""></div>
+                    <h3>Startup</h3>
+                    <p>Starting at</p>
+                    <h4>$599/mo</h4>
+                    <p>Lorem ipsum dolor</p>
+                    <button id="Talk">TALK TO AN EXPERT</button>
+            
+            
+                        <p>
+                            <img src="img/marca-de-verificacao.png" alt="">
+                            Lorem ipsum dolor sit amet</p>
+                        <p>
+                            <img src="img/marca-de-verificacao.png" alt="">
+                            Lorem ipsum dolor sit amet</p>
+                    <p>
+                        <img src="img/marca-de-verificacao.png" alt="">
+                        Lorem ipsum dolor sit amet</p>
+                        <p>
+                            <img src="img/marca-de-verificacao.png" alt="">
+                            Lorem ipsum dolor sit amet</p>
+                        <p>
+                            <img src="img/marca-de-verificacao.png" alt="">
+                            Lorem ipsum dolor sit amet</p>
+                        <p>
+                            <img src="img/marca-de-verificacao.png" alt="">
+                            Lorem ipsum dolor sit amet</p>
+                </div>
+                     </div>
+                     <div class="card" onclick="moveToFront(this)">
+                        <div  class="content">
+                            <div class="emblem-container"><img src="img/sapo-dourado-panamenho.png" id="emblem" alt=""></div>
+                            <h3>Growth</h3>
+                            <p>Starting at</p>
+                            <h4>$1.499/mo</h4>
+                            <p>Lorem ipsum dolor</p>
+                            <button id="Talk">TALK TO AN EXPERT</button>
+                    
+                    
+                                <p>
+                                    <img src="img/marca-de-verificacao.png" alt="">
+                                    Etiam sodales ac felis id interdum</p>
+                                <p>
+                                    <img src="img/marca-de-verificacao.png" alt="">
+                                    Etiam sodales ac felis id interdum</p>
+                            <p>
+                                <img src="img/marca-de-verificacao.png" alt="">
+                                Etiam sodales ac felis id interdum</p>
+                                <p>
+                                    <img src="img/marca-de-verificacao.png" alt="">
+                                    Etiam sodales ac felis id interdum</p>
+                                <p>
+                                    <img src="img/marca-de-verificacao.png" alt="">
+                                    Etiam sodales ac felis id interdum</p>
+                                <p>
+                                    <img src="img/marca-de-verificacao.png" alt="">
+                                    Etiam sodales ac felis id interdum</p>
+                        </div>
+                             </div>
+                             <div class="card" onclick="moveToFront(this)">
+                                <div  class="content">
+                                    <div class="emblem-container"><img src="img/sapo-dourado-panamenho.png" id="emblem" alt=""></div>
+                                    <h3>Enterprise</h3>
+                                    <p>Starting at</p>
+                                    <h4>$2.499/mo</h4>
+                                    <p>Lorem ipsum dolor</p>
+                                    <button id="Talk">TALK TO AN EXPERT</button>
+                            
+                            
+                                        <p>
+                                            <img src="img/marca-de-verificacao.png" alt="">
+                                            Lorem ipsum dolor sit amet</p>
+                                        <p>
+                                            <img src="img/marca-de-verificacao.png" alt="">
+                                            Lorem ipsum dolor sit amet</p>
+                                        <p>    <img src="img/marca-de-verificacao.png" alt="">
+                                        Lorem ipsum dolor sit amet</p>
+                                        <p>
+                                            <img src="img/marca-de-verificacao.png" alt="">
+                                            Lorem ipsum dolor sit amet</p>
+                                        <p>
+                                            <img src="img/marca-de-verificacao.png" alt="">
+                                            Lorem ipsum dolor sit amet</p>
+                                        <p>
+                                            <img src="img/marca-de-verificacao.png" alt="">
+                                            Lorem ipsum dolor sit amet</p>
+                                </div>
+                             </div>
             </div>
         </div>
     </main>
     <footer>
         <button id="company">Company Logo</button>
-        <h3>COMPANY</h3>
-        <ul class="footer-ul">
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Docs</a></li>
-        </ul>
-        <h3>RESOURCES</h3>
-        <ul class="footer-ul">
-            <li><a href="#">Blog post name list goes here</a></li>
-            <li><a href="#">Blog post name list goes here</a></li>
-            <li><a href="#">Blog post name list goes here</a></li>
-            <li><a href="#">See all resources ></a></li>
-        </ul>
-        <h3>ABOUT</h3>
-        <ul class="footer-ul">
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy policy</a></li>
-        </ul>
-        <a href="https://github.com/Brunoake" target="_blank"><img src="img/github.png" alt="Github"></a>
-        <a href="https://www.linkedin.com/in/bruno-pacheco-44b601268/" target="_blank"><img src="img/logotipo-do-linkedin.png" alt="Linkedin"></a>
+        <div class="footer-column">
+            <h3>COMPANY</h3>
+          
+               <a href="#">How it works</a>
+                <a href="#">Pricing</a>
+                <a href="#">Docs</a>
+       
+        </div>
+        <div class="footer-column">
+            <h3>RESOURCES</h3>
+            
+                <a href="#">Blog post name list goes here</a>
+                <a href="#">Blog post name list goes here</a>
+                <a href="#">Blog post name list goes here</a>
+                <a href="#">See all resources ></a>
+           
+        </div>
+        <div class="footer-column">
+            <h3>ABOUT</h3>
+           
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy policy</a>
+            <div class="rede-links">
+                
+                <a href="https://github.com/Brunoake" target="_blank">
+                    <img src="img/github.png" alt="Github">
+                </a>
+                <a href="https://www.linkedin.com/in/bruno-pacheco-44b601268/" target="_blank">
+           
+    
+                <img src="img/logotipo-do-linkedin.png" alt="Linkedin" >
+            </a>
+        </div>
+        </div>
 
-        <p>Copyright &copy; 2024 <a href="https://github.com/Brunoake" target="_blank">Brunoake</a></p>
     </footer>
+
+    <div class="copy-container">
+        <p>Copyright &copy; 2024 <a href="https://github.com/Brunoake" target="_blank">Brunoake</a></p>
+    </div>
 </body>
 </html>
