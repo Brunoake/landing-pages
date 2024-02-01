@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000020;
+}
+
+header{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 390px;
+    position: relative;
+    left: -25px;
+    filter: invert();
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    
+    color: #fff;
+    text-decoration: none;
+}
