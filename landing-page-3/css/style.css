@@ -14,12 +14,13 @@ header{
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-bottom: 6rem;
 }
 
 header img{
-    width: 390px;
+    width: 490px;
     position: relative;
-    left: -25px;
+    left: -50px;
     filter: invert();
 }
 
@@ -34,7 +35,86 @@ nav li {
 }
 
 nav li a {
-    
+    opacity: 1;
     color: #fff;
     text-decoration: none;
+    transition: .3s;
+    
+}
+
+nav li a:hover{
+    opacity: 0.80;
+}
+
+#head-container{
+    margin:  auto;
+    height: 130vh;
+    color: #fff;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-container h2{
+font-size: 2.5rem;
+text-align: center;
+}
+
+#head-container p{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    
+}
+
+#head-container img{  
+    
+    
+    margin-top: 4rem;
+    width: 330px;
+    height: 330px;
+    filter: drop-shadow(0 0 12px #fff);
+}
+
+#get-app{
+text-align: center;
+width: 150px;
+padding: 15px;
+margin-top: 4rem;
+background-color: #072BF2;
+color: #fff;
+border: none;
+border-radius: 4px;
+transition: .4s ease-in-out;
+cursor: pointer;
+}
+
+#get-app:hover{
+ filter: drop-shadow(0 0 15px #072BF2);
+}
+
+#plans{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#plans h1{
+    text-align: center;
+    color: #fff;
+    
+    
+}
+
+#plan-basic,
+#plan-plus,
+#plan-vip{
+margin-top: 4px;
+}
+
+#plan-basic img,
+#plan-plus img,
+#plan-vip img{
+   
+    width: 90px;
 }
