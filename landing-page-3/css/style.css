@@ -1,3 +1,15 @@
+@charset "utf-8";
+@keyframes rotate{
+    0% {
+        filter: drop-shadow(0 0 12px #fff);
+      }
+      100% {
+        filter: drop-shadow(0 0 19px #fff);
+        
+      }
+     
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -71,12 +83,18 @@ text-align: center;
 
 #head-container img{  
     
-    
+    filter: drop-shadow(0 0 12px #fff);
     margin-top: 4rem;
     width: 330px;
     height: 330px;
-    filter: drop-shadow(0 0 12px #fff);
+    
 }
+
+#head-container img:hover{
+     animation: rotate 2s ease-in-out infinite;
+}
+
+
 
 #get-app{
 text-align: center;
@@ -93,28 +111,49 @@ cursor: pointer;
 
 #get-app:hover{
  filter: drop-shadow(0 0 15px #072BF2);
+ animation: pulse 2s ease-in-out infinite;
+}
+
+#plan-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#plan{
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+   
+    
 }
 
 #plans{
+    
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-#plans h1{
-    text-align: center;
-    color: #fff;
-    
-    
+    grid-template-columns: repeat(3, 1fr);
+   
 }
 
 #plan-basic,
 #plan-plus,
 #plan-vip{
+text-align: center;
+width: 20rem;
 margin-top: 4px;
+margin-left: 32px;
+background-color: #00000C;
+color: #ccc;
 }
 
 #plan-basic img,
 #plan-plus img,
 #plan-vip img{
-   
-    width: 90px;
+    filter: invert();
+    width: 100px;
+}
+
+#buy{
+    width: 120px;
+    height: 35px;
 }
