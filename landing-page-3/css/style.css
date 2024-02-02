@@ -124,7 +124,7 @@ cursor: pointer;
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
-   
+   margin-bottom: 3rem;
     
 }
 
@@ -144,16 +144,97 @@ margin-top: 4px;
 margin-left: 32px;
 background-color: #00000C;
 color: #ccc;
+border-radius: 4px;
 }
 
-#plan-basic img,
-#plan-plus img,
-#plan-vip img{
+#plans h2{
+font-size: 2.2rem;
+margin-bottom: 9px;
+color: #fff;
+}
+
+#plans p {
+    font-size: 1.2rem;
+    color: #Fff;
+}
+
+#price-plan{
+    font-weight: bold;
+   background-color: #3534BD;
+   width: 50%;
+   margin: auto;
+   border-radius: 4px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+#plans ul li {
+list-style: none;
+padding: 2px;
+margin-bottom: 8px;
+}
+
+#plans img{
     filter: invert();
     width: 100px;
 }
 
 #buy{
-    width: 120px;
-    height: 35px;
+    width: 190px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #3534BD;
+    color: #fff;
+    transition: .2s ease;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+
+#buy:hover{
+    border: 2px solid #3534BD;
+    background-color: #13171F;
+}
+
+
+#plan-basic price plan{
+margin-top: 4px;
+}
+
+#plan-basic button{
+    margin-top: 6rem;
+}
+
+
+#plan-vip button{
+    margin-top: 2rem;
+}
+
+#plan-vip img{
+    width: 88px;
+    margin-top: 1rem;
+}
+
+#plan-plus{
+    border: 1px solid #ccc;
+    box-shadow: 8px 32px 6px 5px #1a191958;
+    padding-bottom: 1rem;
+}
+
+#topics{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: column;
+}
+
+#topics img{
+    filter: drop-shadow(0 0 22px #fff);
+    margin-top: 4rem;
+    width: 330px;
+    
+    height: 330px;
 }
