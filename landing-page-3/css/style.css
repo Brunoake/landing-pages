@@ -10,6 +10,8 @@
      
 }
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +21,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #000020;
+  overflow-x: hidden;
 }
+
+
 
 header{
     width: 100vw;
@@ -228,13 +233,72 @@ margin-top: 4px;
    display: flex;
    justify-content: center;
    align-items: center;
-    flex-direction: column;
+   
+}
+
+#top{
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#topics p {
+    margin-right: 4rem;
+    margin-top: 4rem;
+    color: #ccc;
+    width: 40%;
+    font-size: 1.2rem;
+
 }
 
 #topics img{
-    filter: drop-shadow(0 0 22px #fff);
+    filter: drop-shadow(0 0 27px #3534BD);
     margin-top: 4rem;
     width: 330px;
-    
     height: 330px;
+}
+
+footer{
+    padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#footer-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+#footer-container h2{
+    color: #fff;
+    
+}
+
+.footer-list{
+    margin: 6rem;
+    list-style: none;
+}
+
+.footer-list li a{
+color: #fff;
+text-decoration: none;
+margin-bottom: 2px;
+}
+
+.footer-list li i{
+margin-left: 10px;
+}
+
+#copy{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+#copy a{
+    text-decoration: none;
+    color: #fff;
 }
