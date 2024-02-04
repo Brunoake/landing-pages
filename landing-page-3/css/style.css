@@ -283,6 +283,11 @@ footer{
     list-style: none;
 }
 
+.footer-list h2{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
 .footer-list li a{
 color: #fff;
 text-decoration: none;
