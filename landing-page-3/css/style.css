@@ -302,3 +302,73 @@ margin-left: 10px;
     text-decoration: none;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+
+    header{
+        width: 100vw;
+        
+    }
+
+    header img{
+        left: 0;
+        width: 420px;
+    }
+
+    nav ul{
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    #get-app{
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    #plan{
+        margin-bottom: 1rem;
+    }
+
+    #plans{
+        grid-template-columns: 1fr;
+    }
+
+   #plan-basic,
+   #plan-plus,
+   #Plan-vip{
+    margin: 1rem;
+   }
+
+   #plan-plus{
+    box-shadow: none;
+   }
+
+   #topics{
+    display: grid;
+    grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+   }
+
+   #topics p{
+    width: 100%;
+    text-align: center;
+    line-height: 1.7rem;
+    margin-right: 1rem;
+   }
+
+   #footer-container{
+    grid-template-columns: 1fr;
+    line-height: 1.6rem;
+   }
+   .footer-list h2{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+   }
+
+    #copy{
+        text-align: center;
+    }
+}
+
